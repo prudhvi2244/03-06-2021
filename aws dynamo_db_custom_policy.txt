@@ -1,0 +1,23 @@
+<dependency>
+	<groupId>com.amazonaws</groupId>
+	<artifactId>aws-java-sdk-dynamodb</artifactId>
+	<version>1.11.815</version>
+</dependency>
+
+
+
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action":   [ "dynamodb:PutItem" ],
+      "Resource": [ "*" ]
+    },
+    {
+      "Effect": "Allow",
+      "Action":   [ "sns:Publish" ],
+      "Resource": [ "*" ]
+    }
+  ]
+}
