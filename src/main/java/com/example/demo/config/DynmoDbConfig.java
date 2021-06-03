@@ -13,10 +13,10 @@ import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 @Configuration
 public class DynmoDbConfig {
 
-    public static final String SERVICE_ENDPOINT = "dynamodb.ap-south-1.amazonaws.com";
-    public static final String REGION = "ap-south-1";
-    public static final String ACCESS_KEY = "AKIAXJW6FTO5RVATS75Y";
-    public static final String SECRET_KEY = "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";
+    public static final String SERVICE_ENDPOINT = "";
+    public static final String REGION = "";
+    public static final String ACCESS_KEY = "";
+    public static final String SECRET_KEY = "";
 
     @Bean
     public DynamoDBMapper mapper() {
